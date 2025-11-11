@@ -1,9 +1,0 @@
-/*  your css code here. If applicable */
-table, th, td, tr {
-    border: 1px solid black;      /* Table Border */
-    border-collapse: collapse;     /* Remove double border lines */
-}
-
-table {
-    background-color: yellow;     /* Table Background */
-}
