@@ -1,38 +1,59 @@
 <!DOCTYPE html>
-
 <html>
-
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <style>
+        table, th, td, tr {
+            border: 1px solid black;     /* 1px solid border */
+            border-collapse: collapse;   /* removes double border effect */
+        }
+        table {
+            background-color: yellow;    /* Yellow background */
+            width: 50%;
+            margin: 20px auto;
+        }
+        th, td {
+            padding: 8px;
+            text-align: center;
+        }
+        caption {
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 8px;
+        }
+    </style>
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
-	<table border style="background-color:yellow" >
-		<thead >
-			<tr>
-				<th>NAME</th>
-				<th>AGE</th>
-				<th>BRANCH</th>
-			</tr>
-		</thead>
-		<tbody >
-			<caption>Student Details.</caption>
-			<tr>
-				<td>Show</td>
-				<td>20</td>
-				<td>CSE</td>
-			</tr>
-			<tr>
-				<td>Adil</td>
-				<td>21</td>
-				<td>ECE</td>
-			</tr>
-		</tbody>
-	</table>
-    <script type="text/javascript" src="./script.js">
-</script>
+
+<table>
+    <caption>Student Details</caption>
+
+    <thead>
+        <tr>
+            <th>NAME</th>
+            <th>AGE</th>
+            <th>BRANCH</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td>Rahul</td>
+            <td>20</td>
+            <td>CSE</td>
+        </tr>
+        <tr>
+            <td>Priya</td>
+            <td>21</td>
+            <td>IT</td>
+        </tr>
+        <tr>
+            <td>Rohan</td>
+            <td>22</td>
+            <td>ECE</td>
+        </tr>
+    </tbody>
+</table>
 
 </body>
-
 </html>
